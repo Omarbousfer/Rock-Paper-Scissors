@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>RPS Game</title>
 </head>
 <body>
+    <header>
+        <h1>Rock / Paper / Scissors<br>The Game</h1>
+        <div>
+            <h3>Made by @omarbousfer</h3>
+            <div class="links">
+                <a href="https://github.com/Omarbousfer" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/omarbousfer/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <a class="letsplay" href="#main">Play</a>
+    </header>
+    <main id="main">
+        <section id="gameinfos">
+            <div>
+                <p>Total Score:</p>
+                <p id="totalscore"></p>
+                <p>Round:</p>
+                <p id="round"></p>
+            </div>
+            <div>
+                <p>Player score:</p>
+                <p id="playerscore"></p>
+                <p>Computer score:</p>
+                <p id="computerscore"></p>
+            </div>
+        </section>
+    </main>
     <script src="rpc-script.js"></script>
 </body>
 </html>

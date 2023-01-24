@@ -99,7 +99,7 @@ for (let rounds = 0; rounds < 5; rounds++) {
 };
 }
 // Final game //
-game();
+//game();
 if (playerScore > computerScore) {
     console.log("You won, the final score is ", playerScore, " x ", computerScore);
 };
