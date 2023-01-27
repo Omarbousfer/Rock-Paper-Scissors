@@ -23,19 +23,27 @@
     <main id="main">
         <section id="gameinfos">
             <div>
-                <p>Total Score:</p>
-                <p id="totalscore"></p>
-                <p>Round:</p>
-                <p id="round"></p>
+                <p class="infos">Player score:</p>
+                <p class="infos" id="playerscore">--</p>
+                <p class="infos">Computer score:</p>
+                <p class="infos" id="computerscore">--</p>
             </div>
             <div>
-                <p>Player score:</p>
-                <p id="playerscore"></p>
-                <p>Computer score:</p>
-                <p id="computerscore"></p>
+                <p class="infos">Final result:</p>
+                <p class="infos" id="finalresult">--</p>
+                <p class="infos">Round:</p>
+                <p class="infos" id="round">--</p>
             </div>
         </section>
+        <section id="restart" class="default">
+            <a href="index.html">Play Again</a>
+        </section>
+        <section id="game">
+            <button id="playerRock"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button id="playerPaper"><i class="fa-regular fa-hand"></i></button>
+            <button id="playerScissors"><i class="fa-regular fa-hand-scissors"></i></button>
+        </section>
     </main>
-    <script src="rpc-script.js"></script>
+    <script src="rpc-script-1.1v.js"></script>
 </body>
 </html>

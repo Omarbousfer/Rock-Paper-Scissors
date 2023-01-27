@@ -74,10 +74,89 @@ header div h3 {
 
 main {
     background-color: #5e667c;
-    height: 1000px;
+    height: 680px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
     /* Game infos section */
 
+#gameinfos {
+    background-color: #939fc0;
+    width: 80%;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+    
+#gameinfos div {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.infos {
+    background-color: #BFACE2;
+    padding: 5px 10px;
+    color: #1e1c38;
+    font-weight: 600;
+}
+    /* Restart section */
+.displayRestart {
+    background-color: #939fc0;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default {
+    display: none;
+}
+.displayRestart a {
+    text-decoration: none;
+    margin: 30px 0;
+    background-color: #BFACE2;
+    color: #1e1c38;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+.displayRestart a:hover {
+    background-color: #1e1c38;
+    color: #BFACE2;
+}
+    
+    /* Game section */
+
+#game {
+    background-color: #939fc0;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#game button {
+    background-color: #EBC7E6;
+    border: unset;
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 60px 0 60px 10px;
+}
+
+#game button:hover {
+    background-color: #ceadc9;
+    border: 4px solid #5e667c;
+    width: 340px;
+    height: 280px;
+}
+
+#game i {
+    color: #1e1c38;
+    font-size: 56px;
+}
